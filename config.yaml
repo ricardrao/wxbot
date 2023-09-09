@@ -1,0 +1,21 @@
+# 机器人WxId，修改为自己的机器人WxId
+botWxId: "wxid_6aciqk6mm7vz22"
+# 机器人名字
+botNickname: "拱拱"
+# 管理员WxId，多个管理员依次添加
+superUsers:
+  - "wxid_v9ohn5ytep2i22"
+  - "wxid_f0u93rcpqnfd12"
+# 管理员命令前缀
+commandPrefix: ""
+# 框架配置
+frameworks:
+  # 框架选择，可选 千寻、VLW
+  name: "千寻"
+  # wxbot主动请求微信框架的地址，通常为VX框架设置的HTTP地址，由http://ip:port组成
+  apiUrl: "http://101.43.157.185:80"
+  # VX框架HTTP鉴权Token (千寻目前没有，vlw需要)
+  apiToken: ""
+  # wxbot运行时的端口，用于在VX框架里设置(回调地址/转发地址/通知地址)叫法不一样，理解就行
+  # 在VX框架中设置回调地址可写成 http://ip:9528/wxbot/callback，IP记得改为运行wxbot的机器IP
+  servePort: 9528
